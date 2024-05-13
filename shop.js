@@ -25,10 +25,36 @@ let shop = {
         [['OnePlus 11 5G', 'phone'], 'sale', ['https://m.media-amazon.com/images/I/61amb0CfMGL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51QVJveu+-L._SX679_.jpg', 'https://m.media-amazon.com/images/I/61pDthnrZjL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51tKzI3G0zL._SX679_.jpg'], 'https://amzn.to/44NM9mF', 'Camera: 50MP Main Camera with Sony IMX890 (OIS supported), 48MP Ultrawide Camera with Sony IMX581 (FOV: 115 degree) and 32MP Telephoto lens with Sony IMX709 (2X Optical Zoom); 16MP Front (Selfie) Camera with EIS support, Operating System: OxygenOS based on Android 13 Processor: Snapdragon 8 Gen 2 Mobile Platform 8GB LPDDR5X RAM, 128GB UFS3.1 Storage'],
         [['HONOR X9b 5G', 'phone'], '', ['https://m.media-amazon.com/images/I/71H5JOOMacL._SX679_.jpg', 'https://m.media-amazon.com/images/I/716RJpNcb7L._SX679_.jpg', 'https://m.media-amazon.com/images/I/71fUO2mejmL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71fKNUZv6RL._SX679_.jpg'], 'https://amzn.to/3V07ndL', '5800mAh Upto 3-Day Battery - The HONOR X9b boasts a high-energy-density 5800mAh DXOMARK Gold Li-Po battery,High Power Experience - The HONOR X9b delivers a robust Android 13 experience with MagicOS 7.2, powered by a Qualcomm Snapdragon 6 Gen 1 (4nm) chipset for efficient multitasking and powerful performance. Plus, enjoy exceptional gaming with the Adreno 710 GPU.'],
         [['TECNO POP 8', 'phone'], '', ['https://m.media-amazon.com/images/I/61wbxpNaD1L._SX679_.jpg', 'https://m.media-amazon.com/images/I/71ddv-szMEL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51OjyfHnV6L._SX679_.jpg', 'https://m.media-amazon.com/images/I/51g4nyN4FnL._SX679_.jpg'], 'https://amzn.to/4bjgPOy', 'With up to a massive 8GB* of RAM & 64GB of ROM | Includes a dedicated SD card slot for up to 1TB expansion, Massive 5000mAh battery with our versatile Type-C charger featuring a 10W output | Improved Battery optimization Robust Octa - Core T606 processor provides incredibly fast performance | Arm Cortex A - 75 CPU | No Room for hanging complaints'],
+        [['Oneplus Nord CE 3 5G ', 'phone'], '', ['https://m.media-amazon.com/images/I/61abLrCfF7L._SX679_.jpg', 'https://m.media-amazon.com/images/I/71MWoyX0CLL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61Rq4ZfYAmL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61WJTQBCXqL._SX679_.jpg'], 'https://amzn.to/4dF1LfX', 'Camera: 50MP Main Camera with Sony IMX890 (OIS supported), 8MP Ultrawide Camera with Sony IMX355 , Display: 6.7 Inches; 120 Hz AMOLED FHD+, Resolution: 2412 x 1080 pixels; HDR 10+, sRGB, 10-bit Color Depth, 93.4% Screen to body ratio, Operating System: OxygenOS 13 based on Android 13.1 Processor: Qualcomm Snapdragon 782G Mobile Platform'],
+        [['OnePlus 12R', 'phone'], 'bank offers', ['https://m.media-amazon.com/images/I/71XNeka-BRL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71kaI4Zo5vL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61t6JSSRflL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71W-Q-U8etL._SX679_.jpg'], 'https://amzn.to/4bvK4yh', 'Fast & Smooth for years: Snapdragon 8 Gen 2 Mobile Platform, Up to 16GB of LPDDR5X RAM with RAM-Vita - Dual Cryo-velocity VC Cooling System, TÜV SÜD 48-Month Fluency Rating A, Our Longest-Lasting Battery Ever: 5500 mAh Battery with 100W SUPERVOOC, Paired with our advanced Battery Health Engine for longevity Smoother and more stable connectivity: WiFi 7 Ready, Enhanced Wi - Fi, Lower gaming latency, Reduced network recovery time.'],
+        [['TECNO Spark 20', 'phone'], 'best deal', ['https://m.media-amazon.com/images/I/61EC+VDs5zL._SX679_.jpg', 'https://m.media-amazon.com/images/I/81JxpPsmIeL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61XFAhDEIwL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51KS745YdgL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61AWVopzPFL._SX679_.jpg'], 'https://amzn.to/4aeoVqR', 'With up to a massive 16GB* RAM and 256GB ROM | Includes a dedicated SD card slot for up to 1TB expansion, 6.56-inch Dot-in Display | Dynamic Port to track multiple notifications | 90Hz refresh rate for smooth scrolling experience Dual Stereo Speakers equipped with DTS technology | Experience up to an impressive 400 %* increase in volume, Massive 5000mAh battery with our versatile Type-C charger featuring 18W output | Improved Battery optimization | Ultra Power Saving.'],
+        [['TECNO Camon 20s Pro 5G', 'phone'], 'best deal', ['https://m.media-amazon.com/images/I/71enHK62juL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71urqzob82L._SX679_.jpg', 'https://m.media-amazon.com/images/I/71bNoGnKkPL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61VZZp2IqSL._SX679_.jpg'], 'https://amzn.to/3UDOnjC', '(Dark Welkin, 8GB RAM,128GB Storage) | MediaTek Dimensity 8020 Processor | 64MP RGBW(G+P) OIS Rear Camera|6.67 FHD+ Big AMOLED Screen, 33W Flash Charging | More than 50% in just half an hour | Massive 5000mAh Battery | Up to 28days standby time'],
+        [['TECNO Spark 20C', 'phone'], '', ['https://m.media-amazon.com/images/I/61iI4i1KmqL._SX679_.jpg', 'https://m.media-amazon.com/images/I/81XytBQdKRL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61OM99+k1yL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51BW2E3pclL._SX679_.jpg'], 'https://amzn.to/4dAWbeL', 'With up to a massive 16GB* RAM and 128GB ROM | Includes a dedicated SD card slot for up to 1TB expansion , Massive 5000mAh battery with our versatile Type-C charger featuring 18W output | Improved Battery optimization | Ultra Power Saving 2.2Ghz Octa Core CPU | Robust Helio G36 processor provides incredibly fast performance 50MP + AI Dual Rear Camera f / 1.6 Aperture | 8MP Dual Flashlight Selfie Camera f / 2.0 Aperture | HDR Photography | Super Night Photography | AI Auto Scene Detection | Time - Lapse | Ultra Clear Low Light Shot | Smile Shot'],
+        [['Oppo A79 5G ', 'phone'], 'Limited time deal', ['https://m.media-amazon.com/images/I/81fNK5+o63L._SX679_.jpg', 'https://m.media-amazon.com/images/I/71vhxkCzQUL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71F2jnVGQHL._SX679_.jpg', 'https://m.media-amazon.com/images/I/91uqwtbnf1L._SX679_.jpg'], 'https://amzn.to/4dBoXvL', 'Big 5000 mAh Battery with All-Day AI Power Saving + 33W SUPERVOOC Charging with 5-layer charging protection to make charging safer Make high - resolution, high - definition films with ease with 50MP AI Rear Camera( 50MP Main + 2MP Portrait ) | 8MP Front CameraMemory, Storage & SIM: 8 GB RAM(+ RAM expansion up to 8GB) | 128 GB ROM | Expandable Upto 1TB | Dual 5G Sim Slot 6.72" FHD+ 90Hz Waterdrop Display with 1080x2040 pixels. Large Screen to Body ratio of 91.4%'],
+        [['iQOO Z9 5G', 'phone'], '', ['https://m.media-amazon.com/images/I/61pt59LW-lL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61E0lmn+YiL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61LLaU2mdRL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71dHyLzkfZL._SX679_.jpg'], 'https://amzn.to/4bCMqL4', '(Brushed Green, 8GB RAM, 128GB Storage) | Dimensity 7200 5G Processor | Sony IMX882 OIS Camera | 120Hz AMOLED with 1800 nits Local Peak Brightness | 44W Charger in The Box, Fully Loaded Performance - Powered by MediaTek Dimensity 7200 built on flagship grade TSMC 2nd Gen 4nm process with a clock speed of 2.8GHz Fully Loaded Camera - Experience Impressive camera shots with 50 MP Sony IMX882 OIS camera, 4K video recording with OIS, Super Night Mode, 2x Portrait Zoom, 50 MP UHD Mode Fully Loaded Display - 16.9cm(6.67") 120Hz Full HD+ AMOLED Display with 1800 nits local peak brightness, Certified by SGS Eye Care Display, DT Star2-Plus Glass protection, HDR playback supported Fast & Fully Loaded Battery - 5000mAh long - lasting battery with 44W FlashCharge'],
+        [['POCO M6 5G', 'phone'], '', ['https://m.media-amazon.com/images/I/61TMoKJHgLL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51mRsuMmSAL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61+x6cwbU7L._SX679_.jpg', 'https://m.media-amazon.com/images/I/51+HsxhsEPL._SX679_.jpg'], 'https://amzn.to/3QIMzog', 'Processor: Powerful MediaTek Dimensity 6100+ 5G SoC | 12GB of RAM including 6GB virtual | 6.74" HD+ 90Hz display with Corning Gorilla Glass 3 Protection | 50MP AI Dual camera |Fast Side fingerprint | 5000mAh Battery 6.74" HD+ 90Hz display with Corning Gorilla Glass 3 Protection, 600nits in High Brightness mode 50MP AI Dual camera with Primary sensor of f/ 1.8(4 -in -1 super pixel) with the following modes: Photo | Portrait | Night | Video | 50MP mode | Time - lapse | Classic film filters | Frame | HDR | Google lens | Voice Shutter'],
+        // [['name', 'phone'], 'type', ['img1', 'img2'], 'link', 'description'],
+    ],
+    headset: [
+        [['Apple Wired EarPods', 'wired headset'], 'recommended', ['https://m.media-amazon.com/images/I/317eB4+yU6L._SX679_.jpg', 'https://m.media-amazon.com/images/I/41zg4DOTl2L._SX679_.jpg', 'https://m.media-amazon.com/images/I/41hpli-aKoL._SX679_.jpg', 'https://m.media-amazon.com/images/I/41VjW3LcESL._SX679_.jpg', 'https://m.media-amazon.com/images/I/41Mqt+x5mLL._SX679_.jpg', 'https://m.media-amazon.com/images/I/412yYCVrObL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51j-F1P71yL._SX679_.jpg'], 'https://amzn.to/3yk7hVn', 'Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear. Which makes them more comfortable for more people than any other earbud-style headphones.The speakers inside the EarPods have been engineered to maximize sound output and minimize sound loss, which means you get high - quality audio.'],
+        [['Apple EarPods (USB-C) ​​​​​​​', 'wired headset'], '', ['https://m.media-amazon.com/images/I/31u+KjpAvKL._SX679_.jpg', 'https://m.media-amazon.com/images/I/31ZySi1zXpL._SX679_.jpg', 'https://m.media-amazon.com/images/I/21ng6WigsKL._SX679_.jpg', 'https://m.media-amazon.com/images/I/21LdHHXYl2L._SX679_.jpg', 'https://m.media-amazon.com/images/I/21JpE97r6HL._SX679_.jpg', 'https://m.media-amazon.com/images/I/21oo+XKCT5L._SX679_.jpg'], 'https://amzn.to/3JYGro3', 'Designed by Apple H2 Apple silicon, amazing sound quality with Adaptive EQ Adaptive Audio Active Noise Cancellation Transparency mode'],
+        [['Earphones BT MEP for Xiaomi Mi 11X', 'wired headset'], 'recommended', ['https://m.media-amazon.com/images/I/51lv5tCyylL._SX522_.jpg', 'https://m.media-amazon.com/images/I/51x-rtdieML._SX522_.jpg', 'https://m.media-amazon.com/images/I/61bPWsrxHCL._SX522_.jpg', 'https://m.media-amazon.com/images/I/71AeGidNZiL._SX522_.jpg', 'https://m.media-amazon.com/images/I/619HEIKW7LL._SX522_.jpg'], 'https://amzn.to/4alJth8', 'Powerful, deep, rich bass, crystal clear sound and audiophile quality. With excellent Noise Isolation that effectively blocks ambient noise, you can listen to your music comfortably without hearing fatigue.'],
+        [['Promate Concord Wireless Headphones', 'overhead headset'], 'recommended', ['https://m.media-amazon.com/images/I/61G4TuHaRRL._SX679_.jpg', 'https://m.media-amazon.com/images/I/614ygPfSvtL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51P3TZ-ab1L._SX679_.jpg', 'https://m.media-amazon.com/images/I/51QATuZRzSL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61Mbf1V5rZL._SX679_.jpg'], 'https://amzn.to/3yj99h4', 'Hi-Fi Audio Quality: Enjoy immersive and crystal-clear sound with the Promate Wireless Headphones, delivering high-fidelity audio for an enhanced listening experience. Active Noise Cancelling: Immerse yourself in your music or audio content without any distractions, thanks to the active noise cancelling feature that reduces background noise.'],
+        [['Promate Wireless Mono Headset,', 'mono headset'], '', ['https://m.media-amazon.com/images/I/61eMkG0PuTL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51oQ+wpP+JL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61oZNUdaBaL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61K6rlnVaLL._SX679_.jpg'], 'https://amzn.to/4bgeF2r', 'bout this item Noise Cancelling Microphone HD Voice Wireless V4.2 Technology Wireless Talk Easy Pairing and Wireless Freedom Lightweight and Comfortable Headset Built - In Control with Mute Key Long- lasting Battery'],
+        [['Promate Wireless Bluetooth Headphones', 'overhead headset'], '', ['https://m.media-amazon.com/images/I/61LEjPPxlQL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51ueW669cuL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61hUM4971yL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61VFyf+IXzL._SX679_.jpg', 'https://m.media-amazon.com/images/I/612lbv+a8mL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61BvDV0F+7L._SX679_.jpg'], 'https://amzn.to/3wFK3by', 'Lightweight Portable On-Ear Stereo Headset with Mic, 3.5mm Audio Cord, HiFi Sound, Volume Control and Noise Cancellation (Black), Bluetooth Version: v4.0 Bluetooth Chipset: BK Bluetooth Profile: HSP, HFP, A2DP Input voltage: 5V Bluetooth Frequency: 2.4 - 2.48GHz'],
+        [['Promate Civil Neckband Earphones', 'Neckband Earphones'], '', ['https://m.media-amazon.com/images/I/61pZeJzr65L._SX679_.jpg', 'https://m.media-amazon.com/images/I/61KMOfKyIeL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61KMOfKyIeL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61+fxFqrStL._SX679_.jpg'], 'https://amzn.to/3WEx84c', '24H Long Playing Time and 230mAh Standby Time: The Promate Civil neckband wireless earphones have a built-in 230mAh rechargeable lithium-polymer battery that supports up to 24 hours of playtime and a stunning 300 hours of standby time.; In-built Mic for Clear and Convenient Calling Functions: This mic captures crystal clear voices and can be used for normal calls, zoom calls, recording videos, etc. Keep your phone in your pocket and your head up to the world with easy access to all calls.'],
+        [['pTron Pride Lite HBE', 'Wired Earphones'], 'best deal', ['https://m.media-amazon.com/images/I/51yB+3-eJwL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61itz58TvYL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61WY8ExyicL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61T0K-bapAL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61eiGDu6-xL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61S+f7Psf8L._SX679_.jpg'], 'https://amzn.to/3wBhL1X', 'pTron Pride Lite HBE (High Bass Earphones) in Ear Wired Earphones with Mic, 10mm Powerful Driver for Stereo Audio, Noise Cancelling Headset with 1.2m Tangle-Free Cable & 3.5mm Aux - (Blue), Stylish, metallic look, in-ear stereo audio quality wired headphones with an in-line mic for hands-free phone calls.'],
+        [['pTron  Ear Wireless Headphones', 'Wireless Headphones'], '', ['https://m.media-amazon.com/images/I/51T4O+hXKmL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61EvpHHtzmL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61-oKxN5gjL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61zJldN3JFL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61Xk-F3AyxL._SX679_.jpg'], 'https://amzn.to/44K20CG', 'pTron Newly Launched Tangent Impulse, Safebeats in Ear Wireless Headphones with Mic, 10H Playtime, Designed for Ear Health & Comfort, Bluetooth 5.3, Dual Device Pairing & Type-C Fast Charging(Black), Tangent Impulse Open-ear wireless headphones are more comfortable to wear for long hours, as they do not create any pressure in the ears | Ultra-Lightweight, just weighing 16 gms.'],
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        // [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
     ],
     laptop: [
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
@@ -60,11 +86,7 @@ let shop = {
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
     ],
-    headset: [
-        [['name', 'lala'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['lala', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-    ],
+
     twd: [
         [['lala', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
         [['name', 'lala'], 'type', ['img1', 'img2'], 'link', 'lala'],
@@ -148,7 +170,7 @@ function searchWork() {
                 target.classList.add('hide')
             }, 3000);
             let cnt = `
-                    I appreciate your interest in our product.<br>However, at this time, I'm unable to search information about ${searchTerm} for you.<br>If you require further information or assistance regarding to ${searchTerm}, please don't hesitate to reach out to us.<br>We're here to provide any information you may need.
+                    I appreciate your interest in our product.<br>However, at this time, We are unable to search information about ${searchTerm} for you.<br>If you require further information or assistance regarding to ${searchTerm}, please don't hesitate to reach out to us.<br>We're here to provide any information you may needed.
                     <button><a href="#social" class="missing-btn">Contact Now</a></button>
         `
             let con = document.createElement('div')
@@ -183,7 +205,18 @@ function searchWork() {
                     </div>
                     <p>${prDisc}
                     </p>
-                    <h4><a href="${prLink}" target="_blank">checkout</a></h4>
+                    <h4><a class="button" href="${prLink}" target="_blank">
+<div class="button-wrapper">
+  <div class="text">Buy Now</div>
+    <span class="shop-icon">
+      <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+</svg>
+    </span>
+  </div>
+</a>
+
+</h4>
                     </div>
                     `
                 let div = document.createElement('div')
@@ -243,12 +276,15 @@ searchButton.addEventListener("click", searchWork);
 searchBox.addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
         searchWork()
+        let my_one = searchBox.value
+        if (my_one == '') {
+            show('none')
+        }
     }
 })
 searchBox.addEventListener('click', () => {
     searchBox.value = ''
 })
-
 //drop down menu
 const dropbtn = document.querySelector(".dropbtn");
 const dropdownContent = document.querySelector(".dropdown-content");
@@ -382,3 +418,4 @@ function show(id) {
     });
 
 }
+
