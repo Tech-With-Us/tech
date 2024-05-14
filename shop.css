@@ -90,19 +90,19 @@ main {
 
 .product {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #ecfaff;
     width: min-content;
-    padding: 10px;
-    border-radius: 14px;
-    height: fit-content;
-    /* max-height: 400px; */
+    min-width: 300px;
+    height: min-content;
+    min-height: 200px;
+    max-height: 300px;
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #ecfaff;
     cursor: default;
     box-shadow: 2px 3px 8px #192f3f;
     opacity: 0;
     animation: fadeIn 0.5s ease-in forwards;
-
 }
 
 @keyframes fadeIn {
@@ -121,7 +121,6 @@ main {
     height: 280px;
     overflow: hidden;
     position: relative;
-    border: 1px solid #3c6e71;
     border-radius: 4px;
     background-color: #346890;
     cursor: pointer;
@@ -131,8 +130,8 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
+    width: 100%;
     border-radius: 4px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
@@ -142,8 +141,6 @@ main {
 .image-item:first-child {
     opacity: 1;
 }
-
-
 
 .product a {
     color: #000000;
@@ -169,13 +166,14 @@ main {
     font-size: 12px;
     margin-left: 3px;
     margin-top: 3px;
+    text-decoration: none;
 }
 
 .product p {
     font-size: 12px;
     background-color: #caddda;
     padding: 4px;
-    height: 80px;
+    height: 100px;
     overflow-y: scroll;
     border-radius: 4px 4px 0px 0px;
 }
@@ -208,6 +206,14 @@ main {
     max-width: 80%;
     border-bottom: 2px solid #346890;
     padding: 0px 10px;
+}
+
+.product-details-container {
+    position: relative;
+    width: min-content;
+    min-width: 300px;
+    margin: auto 0px;
+    margin-left: 20px;
 }
 
 /* search and items */
@@ -259,6 +265,7 @@ main {
     border: 1px solid #ffffff;
     border-radius: 4px;
     margin: 4px 0px;
+    flex-wrap: nowrap;
     overflow: hidden;
 }
 
@@ -277,7 +284,7 @@ main {
     background-color: #284b63;
     color: #ffffff;
     padding: 3px 8px;
-    border-width: 0px 0px 0px 1px;
+    border-width: 0px 0px 0px 0px;
     border-style: solid;
     border-color: #fff;
 }
