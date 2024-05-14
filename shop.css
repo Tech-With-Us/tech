@@ -74,13 +74,13 @@ main {
 }
 
 .product-list {
-    padding: 20px 20px;
+    padding: 15px 20px;
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
     background-color: #caddda;
-    width: 80vw;
+    width: 90%;
     margin: -100px auto;
     min-height: 60vh;
     z-index: 30;
