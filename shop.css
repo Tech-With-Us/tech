@@ -17,26 +17,6 @@ main {
     padding: auto 0px;
 }
 
-.pop-up-msg {
-    background-color: #f0d8d8;
-    color: #763c3c;
-    border: 1px solid #e9c6c6;
-    padding: 15px;
-    position: fixed;
-    top: 20px;
-    left: 0;
-    width: calc(100vw - 33px);
-    z-index: 190;
-    font-size: 18px;
-    text-transform: capitalize;
-}
-
-.pop-up-msg u {
-    border-bottom: 2px dashed #763c3c;
-    font-weight: 600;
-    font-size: 20px;
-}
-
 /* main section */
 .web-head {
     color: #ffffff;
@@ -73,11 +53,21 @@ main {
     z-index: 0;
 }
 
+.product-search-name {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    border-bottom: 1px solid #fff;
+}
+
 .product-list {
-    padding: 15px 20px;
+    padding: 20px 8px;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
     background-color: #caddda;
     width: 90%;
@@ -90,10 +80,11 @@ main {
 
 .product {
     display: flex;
-    width: min-content;
+    width: auto;
     min-width: 300px;
     height: min-content;
     min-height: 200px;
+    max-width: 500px;
     max-height: 300px;
     overflow: hidden;
     padding: 8px;
@@ -117,7 +108,9 @@ main {
 }
 
 .image-container {
-    width: 230px;
+    width:100%;
+    min-width: 180px;
+    /* max-width: 230px; */
     height: 280px;
     overflow: hidden;
     position: relative;
@@ -200,7 +193,7 @@ main {
 .product-details div h5 {
     font-size: 17px;
     font-weight: 400;
-    height: 40px;
+    max-height: 40px;
     overflow: scroll;
     color: #192f3f;
     max-width: 80%;
@@ -211,9 +204,9 @@ main {
 .product-details-container {
     position: relative;
     width: min-content;
-    min-width: 300px;
+    min-width: 260px;
     margin: auto 0px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 /* search and items */
@@ -229,6 +222,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 10px;
     padding: 3px 30px;
     background-color: #284b63;
 }

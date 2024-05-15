@@ -7,7 +7,7 @@
 #caddda
 #346890
  */
-.fix {
+ .fix {
     position: unset;
 }
 
@@ -160,6 +160,10 @@
 }
 
 /* learn main area */
+main {
+    position: sticky;
+    top: 0;
+}
 
 /* selection area */
 .learn-template {
@@ -168,6 +172,7 @@
     overflow: hidden;
     display: flex;
     align-items: start;
+
 }
 
 .learn-language {
@@ -295,6 +300,7 @@
 }
 
 .learn-items {
+    position: relative;
     background-color: #f6fdff;
     width: 100%;
     height: 100dvh;
@@ -314,9 +320,6 @@
 
 .content-area {
     padding: 20px 0px;
-    margin-bottom: 40vh;
-    /* height: 100vh; */
-    /* overflow: scroll; */
 }
 
 .content-area-head h3 {

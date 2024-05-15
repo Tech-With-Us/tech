@@ -45,16 +45,16 @@ let shop = {
         [['Promate Civil Neckband Earphones', 'Neckband Earphones'], '', ['https://m.media-amazon.com/images/I/61pZeJzr65L._SX679_.jpg', 'https://m.media-amazon.com/images/I/61KMOfKyIeL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61KMOfKyIeL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61+fxFqrStL._SX679_.jpg'], 'https://amzn.to/3WEx84c', '24H Long Playing Time and 230mAh Standby Time: The Promate Civil neckband wireless earphones have a built-in 230mAh rechargeable lithium-polymer battery that supports up to 24 hours of playtime and a stunning 300 hours of standby time.; In-built Mic for Clear and Convenient Calling Functions: This mic captures crystal clear voices and can be used for normal calls, zoom calls, recording videos, etc. Keep your phone in your pocket and your head up to the world with easy access to all calls.'],
         [['pTron Pride Lite HBE', 'Wired Earphones'], 'best deal', ['https://m.media-amazon.com/images/I/51yB+3-eJwL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61itz58TvYL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61WY8ExyicL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61T0K-bapAL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61eiGDu6-xL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61S+f7Psf8L._SX679_.jpg'], 'https://amzn.to/3wBhL1X', 'pTron Pride Lite HBE (High Bass Earphones) in Ear Wired Earphones with Mic, 10mm Powerful Driver for Stereo Audio, Noise Cancelling Headset with 1.2m Tangle-Free Cable & 3.5mm Aux - (Blue), Stylish, metallic look, in-ear stereo audio quality wired headphones with an in-line mic for hands-free phone calls.'],
         [['pTron  Ear Wireless Headphones', 'Wireless Headphones'], '', ['https://m.media-amazon.com/images/I/51T4O+hXKmL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61EvpHHtzmL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61-oKxN5gjL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61zJldN3JFL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61Xk-F3AyxL._SX679_.jpg'], 'https://amzn.to/44K20CG', 'pTron Newly Launched Tangent Impulse, Safebeats in Ear Wireless Headphones with Mic, 10H Playtime, Designed for Ear Health & Comfort, Bluetooth 5.3, Dual Device Pairing & Type-C Fast Charging(Black), Tangent Impulse Open-ear wireless headphones are more comfortable to wear for long hours, as they do not create any pressure in the ears | Ultra-Lightweight, just weighing 16 gms.'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['pTron Pride Lite HBE', 'Wired Earphones'], '-78%', ['https://m.media-amazon.com/images/I/51RyH+nQGRL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61WY8ExyicL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61p87tFnuzL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71yV4PqEYdL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61LFGHd5MBL._SX679_.jpg'], 'https://amzn.to/3QFW8En', 'pTron Pride Lite HBE (High Bass Earphones) in Ear Wired Earphones with Mic, 10mm Powerful Driver for Stereo Audio, Noise Cancelling Headset with 1.2m Tangle-Free Cable & 3.5mm Aux (Grey)'],
+        [['Oneplus Bullets Z2', 'Wireless in Ear Earphones with Mic'], 'best seller', ['https://m.media-amazon.com/images/I/51UhwaQXCpL._SX522_.jpg', 'https://m.media-amazon.com/images/I/51tdhnb9hBL._SX522_.jpg', 'https://m.media-amazon.com/images/I/51LkC94UraL._SX522_.jpg', 'https://m.media-amazon.com/images/I/61VyK3V84ML._SX522_.jpg', 'https://m.media-amazon.com/images/I/518rUXjop2L._SX522_.jpg'], 'https://amzn.to/3K1JOuw', 'Oneplus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic, Bombastic Bass - 12.4 mm Drivers, 10 Mins Charge - 20 Hrs Music, 30 Hrs Battery Life, IP55 Dust and Water Resistant (Magico Black), A quick 10-minute charge delivers up to 20 hours of immersive audio playback.; The flagship-level battery life delivers up to 30 hours of non-stop music on a single charge.'],
+        [['OnePlus Bullets Wireless Z2 ', 'Bluetooth in Ear Earphones with Mic'], 'best deal', ['https://m.media-amazon.com/images/I/519OZXHh6dL._SX522_.jpg', 'https://m.media-amazon.com/images/I/51xJvaON00L._SX522_.jpg', 'https://m.media-amazon.com/images/I/514GLi+OoEL._SX522_.jpg', 'https://m.media-amazon.com/images/I/61fcGDt5OmL._SX522_.jpg'], 'https://amzn.to/3K1wRAZ', 'OnePlus Bullets Wireless Z2 ANC Bluetooth in Ear Earphones with Mic, 45dB Hybrid ANC, Bombastic Bass - 12.4 mm Drivers, 10 Mins Charge - 20 Hrs Music, 28 Hrs Battery (Green), CHARGE YOUR EARBUDS BEFORE USE - Please charge your earbuds before using for first time. Your headset is shipped in power saver mode. The headset is only 10% charged. Failure to do so may cause connectivity issues.'],
+        [['iQOO Wireless Sport', 'Bluetooth in-Ear Earphones with Mic '], '', ['https://m.media-amazon.com/images/I/41HK-h0T+TL._SX679_.jpg', 'https://m.media-amazon.com/images/I/41tcqZdH9FL._SX679_.jpg', 'https://m.media-amazon.com/images/I/41Q8cRpb5EL._SX679_.jpg', 'https://m.media-amazon.com/images/I/411XJr64TfL._SX679_.jpg', 'https://m.media-amazon.com/images/I/41hoUFIRqUL._SX679_.jpg'], 'https://amzn.to/3WFNdqm', 'iQOO Wireless Sport | Bluetooth in-Ear Earphones with Mic | 11.2mm Driver | 80ms Low Latency | 18 hrs Battery | Comfort Fit, Large 11.2mm Driver that delivers a Deep Bass and Rich Audio Experience so that you never miss a beat'],
+        [['realme Buds 2 ', 'Earphones with Mic'], 'best choice', ['https://m.media-amazon.com/images/I/61BYFuHb7lL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61LkxaLmJUL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61fgOqiCbVL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61zxnNgXdYL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61016IRlhZL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61ZNtbA-4BL._SX679_.jpg'], 'https://amzn.to/3wKV7El', 'Enjoy the powerful 11.2mm bass boost driver which consist of multi-layer composite diaphragm, bringing you a deep and powerful, yet accurate bass response. The inline remote features three tactile buttons and a mic, so you can control your music and videos, incoming calls, and even summon your voice assistant directly at the touch of a button. A premium, reinforced braided jacket, and two evenly grooved TPU cables make for a design that is robust and durable.'],
+        [['realme Buds Wireless ', 'neckband'], '', ['https://m.media-amazon.com/images/I/61xqefY2rZL._SX679_.jpg', 'https://m.media-amazon.com/images/I/81NSHGg6foL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71ZYVaqQhyL._SX679_.jpg', 'https://m.media-amazon.com/images/I/717WRs58qAL._SX679_.jpg'], 'https://amzn.to/4ao458e', '13.6mm Dynamic Bass Driver 30dB Active Noise Cancellation(ANC) with 360° Spatial Audio Effect Upto 40 Hours Battery Life | Fast charging support of 10 min charging for 25 hours playback Dual device Connection | Google Fast Pairing | Bluetooth 5.3 45ms ultra - low latency for smooth gaming experience IP55 Dust and Water Resistance'],
+        [['Samsung Original EHS64', 'Wired in Ear Earphones'], '', ['https://m.media-amazon.com/images/I/51fv4ccuMkL._SX679_.jpg', 'https://m.media-amazon.com/images/I/31bjUYMB-iL.jpg', 'https://m.media-amazon.com/images/I/31eXA6D+fKL.jpg'], 'https://amzn.to/3UW0J85', 'In Ear Volume Control. Water Resistant: Yes Design: Canal phone Headphone Jack: 3.5mm 6 months warranty'],
+        [['Samsung AKG-Tuned', 'Wired in Ear Earphone'], '', ['https://m.media-amazon.com/images/I/61Vpg8YHNYL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51G+qW05lUL._SX679_.jpg', 'https://m.media-amazon.com/images/I/51G+qW05lUL._SX679_.jpg', 'https://m.media-amazon.com/images/I/712lQt2exJL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61eSClDn+IL._SX679_.jpg'], 'https://amzn.to/3JXRqhP', 'Built-in DAC for customized for undistorted, studio quality audio experience. Rich AKG tuned audio designed with 2 - way speakers, so you get pro- grade sound quality. Crafted with lightweight materials, & designed to sit comfortably in your ears so you can tune out the world with your music. Comes with superior quality tangle - free fabric cable'],
+        [['Mivi Rock and Roll E5 ', 'Wired in Ear Earphones'], '', ['https://m.media-amazon.com/images/I/61TmcMQHB+L._SX679_.jpg', 'https://m.media-amazon.com/images/I/71yElwt6jVL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71nMwGjrtdL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71ZiB96VMEL._SX679_.jpg'], 'https://amzn.to/4bF12dc', 'Optimized Music Experience: A high definition experience that keeps you wanting more. Fine-tuned by our engineers with a 10 mm neodymium driver, these ear phones provide immersive supreme audio. Powerful Bass: This ear phone is for those who like to roll with a solid bass.Spacing in the cavity between the front and the rear chambers is optimized for resonance of sound waves for heavy bass'],
+        [['Mivi Collar Flash', 'Bluetooth Wireless in Ear Earphones'], '', ['https://m.media-amazon.com/images/I/61MDDy1LgkL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71tTH1VtMJL._SX679_.jpg', 'https://m.media-amazon.com/images/I/713bG4TBXKL._SX679_.jpg', 'https://m.media-amazon.com/images/I/71Of-yphwmL._SX679_.jpg', 'https://m.media-amazon.com/images/I/81wfpRJyCpL._SX679_.jpg'], 'https://amzn.to/3WHSNc6', '10 mins charge = 10 hrs playtime. With fast charging on the Collar Flash bluetooth earphones, you get 10 hours of playtime on a single charge of 10 mins. Full charge the earphones in 40 mins..Note : If the size of the earbud tips does not match the size of your ear canals or the headset is not worn properly in your ears, you may not obtain the correct sound qualities or call performance. Change the earbud tips to ones that fit more snugly in your ears. Rich Sound.Powerful Bass: The Collar Flash wireless earphones has been custom tuned by our world - renowned engineers for amazing sound and a deep and powerful bass.The 10mm dynamic drivers elevate your music to another level.'],
     ],
     laptop: [
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
@@ -163,12 +163,6 @@ function searchWork() {
         let ia = 0, prName, prProduct, prType, prImages, prLink, prDisc
         if (itemFound.length == 0) {
             show('none')
-            let target = document.getElementById('not-found')
-            target.classList.remove('hide')
-            target.innerHTML = `Not found any data related to <u>${searchTerm}</u>`
-            setTimeout(() => {
-                target.classList.add('hide')
-            }, 3000);
             let cnt = `
                     I appreciate your interest in our product.<br>However, at this time, We are unable to search information about ${searchTerm} for you.<br>If you require further information or assistance regarding to ${searchTerm}, please don't hesitate to reach out to us.<br>We're here to provide any information you may needed.
                     <button><a href="#social" class="missing-btn">Contact Now</a></button>
@@ -178,7 +172,10 @@ function searchWork() {
             displayArea.innerHTML = ''
             con.innerHTML = cnt
             displayArea.append(con)
-
+            let searchNameDisplay = document.getElementById('searchResultDisplay')
+            console.log(searchNameDisplay)
+            let innerForSearch = `Sorry Could not found anything related to ${searchTerm}`
+            searchNameDisplay.innerHTML = innerForSearch
         } else {
             itemFound.forEach(item => {
                 let idName
@@ -188,27 +185,27 @@ function searchWork() {
                 prProduct = prList[item[1]][0][1]
                 prType = prList[item[1]][1]
                 if (prType) {
-                    idName = 'not-pre'
+                    idName = 'category'
                 }
                 else {
-                    idName = 'category'
+                    idName = 'not-pre'
                 }
                 prImages = prList[item[1]][2]
                 prLink = prList[item[1]][3]
                 prDisc = prList[item[1]][4]
 
                 let innerCon = `
-                     <div class="image-container" id="${targetId}"></div>
+                     <div class="image-container hidden" id="${targetId}"></div>
 
             <div class="product-details-container">
                 <div class="product-details">
-                    <div>
-                        <h5>${prName}</h5><span id="${idName}">${prType}</span>
+                    <div class="hidden" style="transition-delay: 300ms;">
+                        <h5 >${prName}</h5><span id="${idName}">${prType}</span>
                     </div>
-                    <u>${prProduct}</u>
+                    <u class="hidden" style="transition-delay: 300ms;">${prProduct}</u>
                 </div>
                 <div class="product-buy-disc">
-                    <p>${prDisc}
+                    <p class="hidden" style="transition-delay: 400ms;">${prDisc}
                     </p>
                     <h4><a class="button" href="${prLink}" target="_blank">
                             <div class="button-wrapper">
@@ -243,12 +240,17 @@ function searchWork() {
                 })
                 ia += 1
             })
+            let searchNameDisplay = document.getElementById('searchResultDisplay')
+            console.log(searchNameDisplay)
+            let innerForSearch = `Search result for ${searchTerm}`
+            searchNameDisplay.innerHTML = innerForSearch
         }
     }
     else {
         alert("you search nothing")
+        show('none')
     }
-
+    showInLoad()
 }
 //image change
 function changeNow(id) {
@@ -316,11 +318,14 @@ function changeItem(id) {
     })
     target.classList.add('selected-item')
     dropdownContent.classList.remove("show");
+    let searchNameDisplay = document.getElementById('searchResultDisplay')
+    let innerForSearch = `${id}`
+    searchNameDisplay.innerHTML = innerForSearch
 }
 
 
 
-//show the product list oin the page
+//show the product list in the page
 
 function displayProductName() {
 
@@ -359,7 +364,6 @@ function displayProductName() {
 
 function show(id) {
     if (id == 'none') {
-
     }
     else {
         changeItem(id)
@@ -385,17 +389,17 @@ function show(id) {
         prImages = element[2]
         prLink = element[3]
         prDisc = element[4]
-        let innerCon = ` <div class="image-container" id="${targetId}"></div>
+        let innerCon = ` <div class="image-container hidden"  id="${targetId}"></div>
 
             <div class="product-details-container">
                 <div class="product-details">
-                    <div>
+                    <div class="hidden" style="transition-delay: 300ms;">
                         <h5>${prName}</h5><span id="${idName}">${prType}</span>
                     </div>
-                    <u>${prProduct}</u>
+                    <u class="hidden" style="transition-delay: 300ms;">${prProduct}</u>
                 </div>
                 <div class="product-buy-disc">
-                    <p>${prDisc}
+                    <p class="hidden" style="transition-delay: 400ms;">${prDisc}
                     </p>
                     <h4><a class="button" href="${prLink}" target="_blank">
                             <div class="button-wrapper">
@@ -416,7 +420,6 @@ function show(id) {
                     `
         let div = document.createElement('div')
         div.classList.add('product')
-        div.style.animationDelay = `0.${i}s`
         div.addEventListener('click', () => {
             changeNow(targetId)
         })
@@ -431,6 +434,24 @@ function show(id) {
         })
         i += 1
     });
+    showInLoad()
+}
+function showInLoad() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show')
+            }
+            // else {
+            //     // entry.target.classList.remove('show')
+            // }
+        })
+    })
 
+    const hiddenElements = document.querySelectorAll('.hidden')
+    hiddenElements.forEach((el) => observer.observe(el))
 }
 
+setTimeout(function () {
+    showInLoad()
+}, 100)

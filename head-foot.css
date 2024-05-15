@@ -7,7 +7,7 @@
 #caddda
 #346890
  */
-* {
+ * {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
@@ -378,7 +378,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     font-weight: 300;
     font-size: 1.2em;
+    text-align: center;
 }

@@ -94,9 +94,8 @@ function showAI() {
     let io = 0
     ai.forEach(a => {
         let div = document.createElement('div')
-        // div.classList.add('hidden')
+        div.classList.add('hidden')
         div.classList.add('ai-data')
-        div.style.animationDelay = `0.${io}s`
         let aiImgSrc = a[0]
         let aiName = a[1]
         let aiCategory = a[2]
@@ -105,7 +104,7 @@ function showAI() {
 
         let innerCon = `
         <div class="ai-img"><img src="${aiImgSrc}" alt="" loading="eager" onerror="this.src='./img/ai/ai.png'"></div>
-                        <div class="ai-text-content">
+                        <div class="ai-text-content hidden" style="transition-delay: 300ms;">
                             <h2 class="para-font" style="font-weight: 700;">${aiName}</h2>
                             <h6>${aiCategory}</h6>
                             <p>${aiDescription}</p>
@@ -143,3 +142,24 @@ const search_byElement = () => {
         }
     });
 }
+function showInLoad() {
+    let allHides = document.querySelectorAll('.hidden')
+    console.log(allHides)
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show')
+            }
+            // else {
+            //     // entry.target.classList.remove('show')
+            // }
+        })
+    })
+
+    const hiddenElements = document.querySelectorAll('.hidden')
+    hiddenElements.forEach((el) => observer.observe(el))
+}
+
+setTimeout(function () {
+    showInLoad()
+}, 100)
