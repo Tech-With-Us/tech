@@ -70,7 +70,7 @@ main {
     gap: 20px;
     flex-wrap: wrap;
     background-color: #caddda;
-    width: 90%;
+    width: 95%;
     margin: -100px auto;
     min-height: 60vh;
     z-index: 30;
@@ -184,6 +184,7 @@ main {
     height: min-content;
     padding: 3px 6px;
     border-radius: 2px;
+    text-align: center;
 }
 
 .product-details div {
