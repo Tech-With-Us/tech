@@ -87,10 +87,13 @@ let shop = {
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
     ],
 
-    twd: [
-        [['lala', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
-        [['name', 'lala'], 'type', ['img1', 'img2'], 'link', 'lala'],
-        [['name', 'lala'], 'type', ['img1', 'img2'], 'link', 'description'],
+    tws: [
+        [['Noise Xero Buds', 'Buds, tws'], 'recommended', ['https://m.media-amazon.com/images/I/51F5q-bNzvL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61FUWw6e1jL._SX679_.jpg', 'https://m.media-amazon.com/images/I/61Nh8IdpprL._SX679_.jpg', 'https://m.media-amazon.com/images/I/511rorqEs0L.jpg', 'https://m.media-amazon.com/images/I/61BOxdhf2KL._SX679_.jpg'], 'https://amzn.to/4dKGQbm', 'Noise Newly Launched Buds Xero Truly Wireless in-Ear Earbuds with Adaptive Hybrid ANC (Upto 50dB), in-Ear Detection, Sound+ Algorithm, 12.4MM Driver, 50H Playtime, BT v5.3(Chrome Blue)'],
+        [['OnePlus Buds 3 ', 'Buds, tws'], 'best deal', ['https://m.media-amazon.com/images/I/51h7CQTRJ1L._SX522_.jpg', 'https://m.media-amazon.com/images/I/518JdWAXvJL._SX522_.jpg','https://m.media-amazon.com/images/I/51wXDR0u4uL._SX522_.jpg','https://m.media-amazon.com/images/I/41EpveO7uQL._SX522_.jpg','https://m.media-amazon.com/images/I/61XHerhMdaL._SX522_.jpg','https://m.media-amazon.com/images/I/51AAuZ-WOIL._SX522_.jpg'], 'https://amzn.to/4as38vI', 'OnePlus Buds 3 in Ear TWS Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback'],
+        [['JBL Tune 235NC', 'Buds, tws'], 'recommended', ['https://m.media-amazon.com/images/I/31kxv29HeLL._SX300_SY300_QL70_FMwebp_.jpg', 'img2'], 'https://amzn.to/4dGZwJ4', 'JBL Tune 235NC in Ear Wireless ANC Earbuds (TWS), Massive 40Hrs Playtime with Speed Charge, Customizable Bass with Headphones App, 4 Mics for Perfect Calls, Google Fast Pair, Bluetooth 5.2 (Black)'],
+        [['name', 'Buds, tws'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'Buds, tws'], 'type', ['img1', 'img2'], 'link', 'description'],
+        [['name', 'Buds, tws'], 'type', ['img1', 'img2'], 'link', 'description'],
     ],
     camera: [
         [['name', 'product'], 'type', ['img1', 'img2'], 'link', 'description'],
