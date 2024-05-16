@@ -121,4 +121,11 @@ function quart() {
 }
 
 
-
+let changer = document.querySelectorAll('.navbar-selector')
+let target_loader = document.getElementById('loader_place')
+changer.forEach(ele => {
+    ele.addEventListener('click', function () {
+        target_loader.classList.toggle('loader-hide')
+        target_loader.classList.add('loader-show')
+    })
+})

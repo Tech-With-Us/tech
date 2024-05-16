@@ -382,3 +382,54 @@ footer {
     font-size: 1.2em;
     text-align: center;
 }
+
+/* loader */
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    border: 4.5px solid #0000;
+    border-radius: 50%;
+    border-right-color: #254a6e;
+    animation: spinner-a4dj62 0.8s infinite linear;
+}
+
+.spinner::before,
+.spinner::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 2.2px;
+    border: inherit;
+    border-radius: 50%;
+    animation: spinner-a4dj62 1.6s infinite;
+}
+
+.spinner::after {
+    margin: 8.9px;
+    animation-duration: 2.4000000000000004s;
+}
+
+@keyframes spinner-a4dj62 {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.loader-hide {
+    display: none;
+}
+
+.loader-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff7b;
+    z-index: 3000;
+
+}

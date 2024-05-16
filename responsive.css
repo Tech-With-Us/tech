@@ -178,7 +178,7 @@
         padding: 0px;
         align-items: center;
         justify-content: center;
-        width: 100vw;
+        width: 100%;
     }
 
     .create-w-ben {
@@ -206,7 +206,7 @@
     }
 
     .footer {
-        flex-direction: column;
+        display: block;
     }
 
     .footer-msg h3 {
