@@ -103,7 +103,7 @@ function showAI() {
         let aiLink = a[4]
 
         let innerCon = `
-        <div class="ai-img skeleton"><img src="${aiImgSrc}" alt="" loading="eager" onerror="this.src='./img/ai/ai.png'"></div>
+        <div class="ai-img skeleton"><img src="${aiImgSrc}" alt="${aiName}" loading="eager" onerror="this.src='./img/ai/ai.png'"></div>
                         <div class="ai-text-content hidden" style="transition-delay: 300ms;">
                             <h2 class="para-font" style="font-weight: 700;">${aiName}</h2>
                             <h6>${aiCategory}</h6>

@@ -535,6 +535,7 @@ function show(id) {
             let imgTarget = document.getElementById(targetId)
             let imgCont = document.createElement('img')
             imgCont.classList.add('image-item')
+            imgCont.alt = prName
             imgCont.src = img
             imgTarget.append(imgCont)
         })
