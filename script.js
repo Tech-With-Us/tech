@@ -3,6 +3,10 @@
 const hamburgerMenu = document.getElementById('hamburgerMenu');
 const menu = document.getElementById('menu');
 
+window.onbeforeunload = function (event) {
+    hamburgerMenu.checked = false
+};
+
 hamburgerMenu.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
@@ -28,9 +32,6 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show')
         }
-        // else {
-        //     // entry.target.classList.remove('show')
-        // }
     })
 })
 
@@ -129,3 +130,68 @@ changer.forEach(ele => {
         target_loader.classList.add('loader-show')
     })
 })
+
+
+//go back to top
+function goToSection(sectionId) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    } else {
+        console.error("Target section not found:", sectionId);
+    }
+}
+
+//Dialog
+
+document.addEventListener('DOMContentLoaded', function () {
+    const dialog = document.getElementById('myDialog')
+    let openDialogBTN = document.getElementById('openDialog')
+    let closeDialogBTN = document.getElementById('closeDialog')
+
+    openDialogBTN.addEventListener('click', function () {
+        dialog.showModal()
+    })
+
+    closeDialogBTN.addEventListener('click', function () {
+        dialog.close()
+    })
+})
+function send() {
+    let name = document.getElementById('name').value
+    let number = document.getElementById('phone').value
+    let city = document.getElementById('city').value
+    let postal_code = document.getElementById('postal-code').value
+    let state = document.getElementById('state').value
+    let country = document.getElementById('country').value
+    let checkbox = document.getElementById('whats-app').checked
+    let button = document.getElementById('sub-button')
+    let postal
+    if (postal_code) {
+        postal = `%0APostal Code:- ${postal_code}`
+    }
+    let massage = `This form is filled by ${name}%0AContact:- ${number}%0AFrom:- ${city} ${state}${postal}%0ACountry:- ${country}`
+    if (number && !checkbox) {
+        document.getElementById('wh-response').innerHTML = 'please enter the whatsapp number!'
+        button.type = 'button'
+    }
+    else {
+        document.getElementById('wh-response').innerHTML = ''
+        button.type = 'submit'
+    }
+
+    console.log(checkbox)
+    if (name && number && checkbox) {
+        console.log('yes')
+        console.log(massage)
+        window.location.href = `https://wa.me/+918817596894?text=${massage}`
+    }
+}
+const numberInput = document.getElementById("phone");
+
+numberInput.addEventListener("keypress", function (event) {
+    // Allow backspace, delete, decimal point (.), and positive numbers
+    if (!/[\b\d.]/.test(event.key)) {
+        event.preventDefault(); // Prevent invalid input
+    }
+});

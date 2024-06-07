@@ -22,9 +22,9 @@
     overflow: hidden;
     padding: 8px;
     background-color: #caddda;
-    filter: drop-shadow(2px 5px 5px #253742);
     opacity: 0;
     transition: all 0.2s;
+    box-shadow: 5px 5px 8px #424e57;
 }
 
 .ai-data:hover {

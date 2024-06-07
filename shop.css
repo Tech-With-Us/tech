@@ -108,14 +108,13 @@ main {
 }
 
 .image-container {
-    width:100%;
+    width: 100%;
     min-width: 180px;
     /* max-width: 230px; */
     height: 280px;
     overflow: hidden;
     position: relative;
     border-radius: 4px;
-    background-color: #346890;
     cursor: pointer;
 }
 
@@ -266,6 +265,7 @@ main {
 
 .shop-item-search input {
     font-size: 16px;
+    caret-color: #346890;
     outline: none;
     border: none;
     height: min-content;
@@ -318,6 +318,7 @@ main {
     background-color: #284b63;
     z-index: 1;
     padding: 3px;
+    min-width: 200px;
 }
 
 .dropdown-content a {
