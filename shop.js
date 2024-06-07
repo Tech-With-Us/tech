@@ -293,14 +293,14 @@ function searchWork() {
             <div class="product-details-container">
                 <div class="product-details">
                     <div class="hidden" style="transition-delay: 300ms;">
-                        <h5 >${prName}</h5><span id="${idName}">${prType}</span>
+                        <h1 >${prName}</h1><span id="${idName}">${prType}</span>
                     </div>
                     <u class="hidden" style="transition-delay: 300ms;">${prProduct}</u>
                 </div>
                 <div class="product-buy-disc">
                     <p class="hidden" style="transition-delay: 400ms;">${prDisc}
                     </p>
-                    <h4><a class="button" href="${prLink}" target="_blank">
+                    <h1><a class="button" href="${prLink}" target="_blank">
                             <div class="button-wrapper">
                                 <div class="text">Buy Now</div>
                                 <span class="shop-icon">
@@ -313,7 +313,7 @@ function searchWork() {
                                 </span>
                             </div>
                         </a>
-                    </h4>
+                    </h1>
                 </div>
             </div>
                     `
@@ -500,14 +500,14 @@ function show(id) {
             <div class="product-details-container">
                 <div class="product-details">
                     <div class="hidden" style="transition-delay: 300ms;">
-                        <h5>${prName}</h5><span id="${idName}">${prType}</span>
+                        <h1>${prName}</h1><span id="${idName}">${prType}</span>
                     </div>
                     <u class="hidden" style="transition-delay: 300ms;">${prProduct}</u>
                 </div>
                 <div class="product-buy-disc">
                     <p class="hidden" style="transition-delay: 400ms;">${prDisc}
                     </p>
-                    <h4><a class="button" href="${prLink}" target="_blank">
+                    <h1><a class="button" href="${prLink}" target="_blank">
                             <div class="button-wrapper">
                                 <div class="text">Buy Now</div>
                                 <span class="shop-icon">
@@ -520,7 +520,7 @@ function show(id) {
                                 </span>
                             </div>
                         </a>
-                    </h4>
+                    </h1>
                 </div>
             </div>
                     `

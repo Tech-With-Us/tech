@@ -106,7 +106,7 @@ function showAI() {
         <div class="ai-img skeleton"><img src="${aiImgSrc}" alt="${aiName}" loading="eager" onerror="this.src='./img/ai/ai.png'"></div>
                         <div class="ai-text-content hidden" style="transition-delay: 300ms;">
                             <h2 class="para-font" style="font-weight: 700;">${aiName}</h2>
-                            <h6>${aiCategory}</h6>
+                            <h3>${aiCategory}</h3>
                             <p>${aiDescription}</p>
                         </div>
                         <button><a target="_blank" href="${aiLink}" class="some-Place">open<svg xmlns="http://www.w3.org/2000/svg"

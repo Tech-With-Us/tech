@@ -190,7 +190,7 @@ main {
     display: flex;
 }
 
-.product-details div h5 {
+.product-details div h1 {
     font-size: 17px;
     font-weight: 400;
     max-height: 40px;

@@ -4,7 +4,7 @@
 //source data
 const content = {
     // codding---------
-    "programming": {
+    "coding": {
         html: {
             yt: [
                 ['kUMe1FH4CHE', 'recommended', 'freeCodeCamp.org', 'Learn HTML – Full Tutorial for Beginners (2022)'],

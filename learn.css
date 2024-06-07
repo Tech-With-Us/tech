@@ -549,7 +549,9 @@ main {
     font-size: 20px;
     color: #2b6d81;
 }
-
+.center{
+    text-align: center;
+}
 /* starting when anything is not selected */
 .display-none {
     display: flex;
@@ -559,7 +561,7 @@ main {
     flex-direction: column;
 }
 
-.display-none center {
+.display-none .center {
     font-weight: 800;
     font-size: 40px;
     color: #3c6e71;
@@ -568,7 +570,7 @@ main {
     text-transform: capitalize;
 }
 
-.display-none div center {
+.display-none div .center {
     letter-spacing: 2px;
     color: #057f46;
     margin-top: 80px;
