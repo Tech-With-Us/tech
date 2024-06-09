@@ -129,7 +129,7 @@ const search_byElement = () => {
     const searchTerm = searchInput.value.toLowerCase();
 
     cards.forEach(card => {
-        const cardText = card.querySelector('h6').innerText.toLowerCase();
+        const cardText = card.querySelector('h3').innerText.toLowerCase();
         const cardName = card.querySelector('h2').innerText.toLowerCase();
 
         if (cardName.includes(searchTerm)) {
