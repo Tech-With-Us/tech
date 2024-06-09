@@ -539,9 +539,23 @@ function show(id) {
             imgCont.src = img
             imgTarget.append(imgCont)
         })
+        let fir_image = document.getElementById(targetId).firstElementChild
+
+        if (fir_image.complete) {
+            onImgLoad(targetId);
+        } else {
+            fir_image.addEventListener('load', () => {
+                onImgLoad(targetId)
+            });
+        }
         i += 1
     });
     showInLoad()
+}
+function onImgLoad(id) {
+    let target = document.getElementById(id)
+    target.classList.remove('skeleton')
+
 }
 function showInLoad() {
     const observer = new IntersectionObserver((entries) => {

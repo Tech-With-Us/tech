@@ -26,10 +26,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .website button {
-    padding: 4px 10px;
+    padding: 6px 25px;
     background-color: #3c6e71;
     border: none;
     border-radius: 8px;
@@ -212,7 +213,7 @@
 .create-contact button {
     background-color: #3c6e71;
     border: 0px;
-    padding: 3px 15px;
+    padding: 3px 20px;
     border-radius: 5px;
 }
 
