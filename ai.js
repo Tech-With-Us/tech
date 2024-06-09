@@ -144,7 +144,6 @@ const search_byElement = () => {
 }
 function showInLoad() {
     let allHides = document.querySelectorAll('.hidden')
-    console.log(allHides)
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
