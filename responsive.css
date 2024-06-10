@@ -230,6 +230,9 @@
         min-height: 180px;
         height: 20vh;
     }
+    .ai-data {
+        min-width: min-content;
+    }
 
     .show {
         transition-delay: 0ms;
