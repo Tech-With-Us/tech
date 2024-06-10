@@ -288,7 +288,7 @@ function searchWork() {
                 prDisc = prList[item[1]][4]
 
                 let innerCon = `
-                     <div class="image-container hidden" id="${targetId}"></div>
+                     <div class="image-container hidden skeleton" id="${targetId}"></div>
 
             <div class="product-details-container">
                 <div class="product-details">
@@ -329,8 +329,19 @@ function searchWork() {
                     let imgCont = document.createElement('img')
                     imgCont.classList.add('image-item')
                     imgCont.src = img
+                    imgCont.loading = 'eager'
                     imgTarget.append(imgCont)
                 })
+
+                let fir_image = document.getElementById(targetId).firstElementChild
+
+                if (fir_image.complete) {
+                    onImgLoad(targetId);
+                } else {
+                    fir_image.addEventListener('load', () => {
+                        onImgLoad(targetId)
+                    });
+                }
                 ia += 1
             })
             let searchNameDisplay = document.getElementById('searchResultDisplay')
@@ -537,6 +548,7 @@ function show(id) {
             imgCont.classList.add('image-item')
             imgCont.alt = prName
             imgCont.src = img
+            imgCont.loading = 'eager'
             imgTarget.append(imgCont)
         })
         let fir_image = document.getElementById(targetId).firstElementChild
@@ -552,10 +564,11 @@ function show(id) {
     });
     showInLoad()
 }
+
+//remove skeleton class on image loade
 function onImgLoad(id) {
     let target = document.getElementById(id)
     target.classList.remove('skeleton')
-
 }
 function showInLoad() {
     const observer = new IntersectionObserver((entries) => {
