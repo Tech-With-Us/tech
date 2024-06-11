@@ -338,6 +338,15 @@
         gap: 10px;
     }
 
+    .display-none .center {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .display-none div .center {
+        font-size: 16px;
+    }
+
     .learn-source {
         position: unset;
         width: 100vw;
